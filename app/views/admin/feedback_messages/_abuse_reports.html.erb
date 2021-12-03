@@ -41,7 +41,7 @@
                 <% if reaction.reactable_type == "User" && reaction.reactable.suspended? %>
                   <span class="badge badge-danger">Suspended</span>
                 <% end %>
-                <% if reaction.reactable_type == "User" && reaction.reactable.vomitted_on? %>
+                <% if reaction.reactable_type == "User" && reaction.reactable.vomited_on? %>
                   <span class="badge badge-warning">Vomitted</span>
                 <% end %>
               </span>
